@@ -1,9 +1,13 @@
+import styled from "styled-components";
 
-
-function Chat() {
+function Chat({id,users}) {
   return (
-    <div>Chat</div>
-  )
+    <Container>
+        <p>Recipient Email</p>
+    </Container>
+  );
 }
 
 export default Chat;
+
+const Container = styled.div``;
