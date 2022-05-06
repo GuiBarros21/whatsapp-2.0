@@ -13,7 +13,7 @@ function Login() {
   return (
     <Container>
       <Head>
-        <title>Login | Whatsapp Clone</title>
+        <title>Login | Whatsapp2.0</title>
       </Head>
 
       <LoginContainer>
@@ -23,33 +23,6 @@ function Login() {
           <ButtonText>SignIn with Google</ButtonText>
         </Button>
       </LoginContainer>
-      <SocialContainer>
-        <a
-          href="https://github.com/Ajay-056/Whatsapp-Clone-NextJS"
-          target="_blank noreferrer"
-        >
-          <Image src="/icons8-github.svg" alt="github" height={40} width={40} />
-        </a>
-        <a href="https://www.twitter.com/balaajay19" target="_blank noreferrer">
-          <Image
-            src="/icons8-twitter-48.png"
-            alt="twitter"
-            height={40}
-            width={40}
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/ajay-krishna-065a1a162"
-          target="_blank noreferrer"
-        >
-          <Image
-            src="/icons8-linkedin-48.png"
-            alt="linkedin"
-            height={40}
-            width={40}
-          />
-        </a>
-      </SocialContainer>
     </Container>
   );
 }
