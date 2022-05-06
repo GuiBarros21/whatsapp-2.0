@@ -30,10 +30,7 @@ function Login() {
 export default Login;
 
 const Container = styled.div`
-  /* display: grid;
-  place-items: center;
-  height: 100vh;
-  background-color: whitesmoke; */
+ 
   display: grid;
   place-items: center;
   height: 100vh;
