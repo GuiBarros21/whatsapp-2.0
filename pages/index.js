@@ -1,5 +1,7 @@
-import Head from 'next/head'
-import Sidebar from '../components/Sidebar'
+import Head from 'next/head';
+import Sidebar from '../components/Sidebar';
+import styled from 'styled-components';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -9,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Sidebar/>
+      <Sidebar />
     </div>
   )
 }
