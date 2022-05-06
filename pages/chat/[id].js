@@ -22,7 +22,7 @@ function Chat({chat, messages}){
             <ChatScreen chat={chat} messages={messages}/>
         </ChatContainer>
     </Container> 
-    )
+    );
 }
 export default Chat;
  
@@ -39,7 +39,7 @@ export async function getServerSideProps(context) {
     }))
     .map((messages) =>({
         ...messages,
-        timestamp: messages.timestamp.toDate().getTime()
+        timestamp: messages.timestamp.toDate().getTime(),
     }));
 
     //Prep Chats
@@ -52,9 +52,9 @@ export async function getServerSideProps(context) {
     return {
         props:{
             messages: JSON.stringify(messages),
-            chat: chat
-        }
-    }
+            chat: chat,
+        },
+    };
 }
 
  
